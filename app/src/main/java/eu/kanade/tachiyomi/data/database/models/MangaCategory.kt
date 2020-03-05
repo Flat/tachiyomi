@@ -1,5 +1,8 @@
 package eu.kanade.tachiyomi.data.database.models
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 class MangaCategory {
 
     var id: Long? = null
