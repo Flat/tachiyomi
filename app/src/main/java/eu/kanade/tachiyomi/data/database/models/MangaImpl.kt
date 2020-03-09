@@ -1,5 +1,8 @@
 package eu.kanade.tachiyomi.data.database.models
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 open class MangaImpl : Manga {
 
     override var id: Long? = null

@@ -1,8 +1,11 @@
 package eu.kanade.tachiyomi.data.database.models
 
+import kotlinx.serialization.Serializable
+
 /**
  * Object containing the history statistics of a chapter
  */
+@Serializable
 class HistoryImpl : History {
 
     /**
