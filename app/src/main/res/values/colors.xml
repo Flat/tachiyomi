@@ -8,6 +8,7 @@
     <color name="colorDarkPrimary">#212121</color>
     <color name="colorDarkPrimaryDark">#1C1C1D</color>
     <color name="colorAmoledPrimary">@color/md_black_1000</color>
+    <color name="color2077Primary">#300233</color>
 
     <color name="splashBackgroundColor">@color/colorPrimary</color>
 
@@ -29,9 +30,20 @@
     <color name="textColorHintDark">@color/md_white_1000_50</color>
     <color name="dividerDark">@android:color/transparent</color>
     <color name="rippleColorDark">@color/md_white_1000_20</color>-
-    <color name="backgroundDark">@color/colorDarkPrimaryDark</color>
+    <color name="backgroundDark">@android:color/transparent</color>
     <color name="dialogDark">@color/colorDarkPrimary</color>
     <color name="selectorColorDark">@color/md_blue_A200_50</color>
+
+    <!-- 2077 Theme -->
+    <color name="colorAccent2077">#00BCD4</color>
+    <color name="textColorPrimary2077">#fe00fe</color>
+    <color name="textColorSecondary2077">#d1f7ff</color>
+    <color name="textColorHint2077">@color/md_white_1000_50</color>
+    <color name="divider2077">#fe00fe</color>
+    <color name="rippleColor2077">@color/md_white_1000_20</color>-
+    <color name="background2077">#D901012B</color>
+    <color name="dialog2077">@color/background2077</color>
+    <color name="selectorColor2077">#7700a6</color>
 
     <!-- Reader Theme -->
     <color name="readerColorDarkPrimary">@color/colorDarkPrimary</color>

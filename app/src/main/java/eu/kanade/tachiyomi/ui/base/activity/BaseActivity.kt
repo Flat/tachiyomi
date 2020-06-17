@@ -49,6 +49,7 @@ abstract class BaseActivity<VB : ViewBinding> : AppCompatActivity() {
         when (preferences.themeDark().get()) {
             Values.DarkThemeVariant.blue -> R.style.Theme_Tachiyomi_DarkBlue
             Values.DarkThemeVariant.amoled -> R.style.Theme_Tachiyomi_Amoled
+            Values.DarkThemeVariant.twentyseventyseven -> R.style.Theme_Tachiyomi_2077
             else -> R.style.Theme_Tachiyomi_Dark
         }
     }

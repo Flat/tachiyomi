@@ -23,6 +23,7 @@ object PreferenceValues {
         default,
         blue,
         amoled,
+        twentyseventyseven,
     }
 
     enum class DisplayMode {

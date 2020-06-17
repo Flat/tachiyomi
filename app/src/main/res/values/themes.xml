@@ -182,6 +182,38 @@
         <item name="colorLibrarySelectionActive">@color/selectorColorDark</item>
     </style>
 
+    <style name="Theme.Tachiyomi.2077" parent="Theme.Base.Dark">
+        <!-- Theme colors -->
+        <item name="colorPrimary">@color/color2077Primary</item>
+        <item name="colorPrimaryVariant">@color/color2077Primary</item>
+        <item name="colorPrimarySurface">@color/background2077</item>
+        <item name="colorOnPrimary">@color/textColorPrimary2077</item>
+        <item name="colorSecondary">@color/colorAccent2077</item>
+        <item name="colorOnSecondary">@color/textColorPrimary2077</item>
+        <item name="colorSurface">@color/dialog2077</item>
+        <item name="colorOnSurface">@color/textColorPrimary2077</item>
+        <item name="colorOnBackground">@color/colorAccent2077</item>
+        <item name="colorAccent">@color/colorAccent2077</item>
+
+        <!-- Base background/text colors -->
+        <item name="android:windowBackground">@drawable/grid_2077</item>
+        <item name="android:colorBackground">@color/background2077</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary2077</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary2077</item>
+        <item name="android:textColorHint">@color/textColorHint2077</item>
+        <item name="android:textColorPrimaryInverse">@color/textColorPrimaryLight</item>
+        <item name="android:textColorSecondaryInverse">@color/textColorSecondaryLight</item>
+        <item name="android:textColorHintInverse">@color/textColorHint2077</item>
+        <item name="rippleColor">@color/rippleColor2077</item>
+
+        <item name="android:divider">@color/divider2077</item>
+        <item name="android:listDivider">@drawable/line_divider</item>
+
+        <!-- Some ROMs make black navbars white (e.g. OxygenOS) -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+
     <!--==============-->
     <!-- Reader Theme -->
     <!--==============-->
